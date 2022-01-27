@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xkowM8/OYy+ZddqzCArVhaiwr8+FTTq1bnE+3GfXXE/3LAXXX6xRrezJS4qORqHbRnaTjCYxwvvMwP7TbGGP3g==",
+  "dgSpecHash": "BsdAwqGb9xMvazRq2ZON0DaNCeku2hfsAlpEOhyoio6FL2kHT4pqk7x3jnCwDDQVB375P9cRcDvxHH5rSAzS9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Doros\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Doros\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
