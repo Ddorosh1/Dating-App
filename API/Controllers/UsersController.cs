@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,15 +18,17 @@ namespace API.Controllers
             _context = context;
         }
 
-// Add await to function call and have the return structure return an asynchronuus call. ToList() is not asynchronous but ToListAsync() is.
-// Otherwise drop the async and change ToListAsync() to ToList().
+    // Add await to function call and have the return structure return an asynchronuus call. ToList() is not asynchronous but ToListAsync() is.
+    // Otherwise drop the async and change ToListAsync() to ToList().
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
             return await _context.Users.ToListAsync();
         }
 
-// Add async to function call and wrap in Task and add Async to return function call for scalability efficiency.
+    // Add async to function call and wrap in Task and add Async to return function call for scalability efficiency.
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<AppUser>> GetUser(int id)
         {
