@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Doros\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\Doros\\OneDrive\\Documents\\dotnet\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Doros\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
